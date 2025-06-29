@@ -1,3 +1,0 @@
-# technomorph
-
-hello guys 
