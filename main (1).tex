@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\usepackage{template}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{soul}
+
+% Set Libertinus Serif font if using XeLaTeX/LuaLaTeX
+\usepackage{iftex}
+\ifXeTeX
+    \setmainfont{Libertinus Serif}
+\else\ifLuaTeX
+    \setmainfont{Libertinus Serif}
+\fi
+
+% Cover page information
+\coverTitle{Day 1: Introduction to Robots and Robotics}
+\coverAuthor{Swaroop Ratna Shakya}
+\coverRollno{PUR081BCT093}
+\coverTo{Scientiac}
+\coverLogo{robo.png}
+\coverDate{2025-06-30}
+
+\begin{document}
+
+% Generate cover page
+\makecover
+
+% Setup main document formatting
+\setupmain
+
+\section{Introduction}
+On the second day of robotics training, we shifted focus from theory to hardware-related fundamentals. The session introduced us to microcontrollers, especially the Arduino platform, and how to begin programming them using the Arduino IDE. We also practiced building circuits in a virtual environment using Tinkercad.
+
+ 
+\section{Topics Covered:}
+\subsection{Introduction to Microcontrollers}
+We learned what microcontrollers are and how they form the brain of robotic systems. The Arduino Uno board was introduced as an example of a beginner-friendly microcontroller.
+\subsection{Basic programming concepts in arduino IDE}
+We were introduced to Arduino's basic programming structure:
+
+setup() and loop() functions,
+Syntax for controlling pins using pinMode(), digitalWrite(), and delay()
+We wrote simple programs like blinking an LED and simulated them using virtual tools.
+
+
+\subsection{practicing Circuits in Tinkercad}
+Tinkercad was used to simulate real-world Arduino circuits. This allowed us to
+Connect virtual components (LEDs, resistors, breadboards),
+Upload and test code safely and Understand basic wiring and simulation logic
+
+
+
+\section
+
+\section{Conclusion}
+Day 2 was a great transition into hands-on robotics. Setting up the Arduino IDE and programming it in a simulated environment helped solidify our understanding of how microcontrollers interact with electronic components. I am looking forward to working on real hardware in upcoming sessions.
+
+\end{document}
